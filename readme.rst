@@ -8,7 +8,7 @@ ABOUT ...
 *******************
 Release Information
 *******************
-This simple php site. `Open <http://legko.esy.es>`_ page.
+This simple php site. `Open page <http://legko.esy.es>`_.
 
 
 *******************

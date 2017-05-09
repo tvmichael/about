@@ -3,25 +3,19 @@ What is 'About'
 ###################
 ABOUT ...
 
+
+
 *******************
 Release Information
 *******************
-This ...  `Open <http://legko.esy.es>`_ page.
+This simple php page.  `Open <http://legko.esy.es> page`_.
 
-**************************
-Changelog and New Features
-**************************
-You can find a list of all changes for each release in the `user`_.
 
 *******************
 Server Requirements
 *******************
-PHP version 5.6 or newer is recommended.
+PHP version 5.6 is recommended.
 
-************
-Installation
-************
-Please see the `installation section`_ User Guide.
 
 *********
 Resources

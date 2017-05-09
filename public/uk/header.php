@@ -1,5 +1,7 @@
+<?php defined('SITE_OPEN') OR exit('No direct script access allowed'); ?>
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>About</title>
 

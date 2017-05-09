@@ -1,1 +1,31 @@
-/* -- ABOUT CSS -- */
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+/* IMAGES */
+.bg-img-1 {
+    background-color: #454452;
+    background-image: url(../image/pc-desk.jpg);
+    background-attachment: fixed;
+    background-position-y: 50px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-overlay{
+    background-image: url(../image/pattern.png);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main-text{
+    font-family: 'Cuprum', sans-serif;
+    color: white;
+    margin: 100px 20px 50px 20px;
+}
+.main-text span{
+    color: #0092db;
+}

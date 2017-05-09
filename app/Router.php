@@ -16,6 +16,12 @@ class Router {
             case '/portfolio':
                 $view->show($this->uri);
                 break;
+            case '/resume':
+                $view->show($this->uri);
+                break;
+            case '/about':
+                $view->show($this->uri);
+                break;
             default:
                 $view->show('main');
         }

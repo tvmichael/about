@@ -1,5 +1,6 @@
-<?php defined('SITE_OPEN') OR exit('No direct script access allowed'); ?>
+<?php defined('SITE_OPEN') OR exit('Error'); ?>
 
+    <!-- FOOTER ------------------------------------------------------------------------ -->
     <footer>
         <div class="container-fluid">
             <div class="row">

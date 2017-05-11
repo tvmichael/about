@@ -9,7 +9,7 @@ class Router {
         $db = new Model();
         $db->log();
 
-        switch ($this->uri) {
+        switch ($uri) {
             case '/ua':
                 $this->view($uri.'/');
                 break;

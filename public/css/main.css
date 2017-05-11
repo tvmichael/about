@@ -6,13 +6,12 @@
 /* Header */
 .h-brand-style{
     font-family: 'Cuprum', sans-serif;
-    font-size: 20pt;
+    font-size: 24pt;
 }
-
 
 /* --- MAIN ------------------------------------------------------------- */
 /* Images */
-.m-img-1 {
+.m-img-top {
     background-color: #454452;
     background-image: url(../image/pc-desk.jpg);
     background-attachment: fixed;
@@ -21,6 +20,7 @@
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 50px;
 }
 .m-img-overlay{
     background-image: url(../image/pattern.png);
@@ -35,8 +35,14 @@
 .m-text{
     font-family: 'Cuprum', sans-serif;
     color: white;
-    margin: 100px 20px 50px 20px;
+    padding: 50px;
 }
-.m-text span{
-    color: #0092db;
+.m-text-skill{
+    padding: 50px;
+    font-size: 12pt;
+    color: white;
+}
+.m-text-t{
+    color: white;
+    padding: 20px;
 }

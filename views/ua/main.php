@@ -5,32 +5,34 @@
     <section id="main">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 m-img-1">
+                <div class="col-md-12 m-img-top">
                     <!-- https://www.pexels.com/ -->
                     <div class="m-img-overlay">
-                        <div>
-                            <h1 class="m-text">
+                    </div>
+
+                        <div class="col-md-12 m-text">
+                            <h1 class="text-uppercase">
                                 Професійна розробка
                                 <span>WEB-сайтів</span>
                             </h1>
                         </div>
 
-                        <div>
+                        <div class="col-md-12 m-text-skill">
                             <p>
-                                WEB-РАЗРОБКА / HTML-ВЕРСТАННЯ
+                                WEB-РАЗРОБКА | HTML-ВЕРСТАННЯ
                             </p>
                             <p>
-                                MVC LARAVEL / CODEIGNITER
+                                MVC: LARAVEL, CODEIGNITER
                             </p>
                             <p>
-                                CMS WORDPRESS / JOOMLA
+                                CMS: WORDPRESS, JOOMLA
                             </p>
                             <p>
-                                ПРОГРАММІСТ: PHP / JAVASCRIPT
+                                ПРОГРАММІСТ: PHP, JAVASCRIPT
                             </p>
                         </div>
 
-                        <div>
+                        <div class="col-md-12 m-text-t">
                             <p>
                                 Доброго дня! Меня звати Михайло.
                                 Я займаюсь разрабкою сайтів з нуля, під ключ.
@@ -55,7 +57,7 @@
                         </div>
 
 
-                    </div>
+
                 </div>
 
             </div>
@@ -120,20 +122,6 @@
     </section>
 
 
-    <!-- PORTFOLIO -->
-    <section id="portfolio">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
     <!-- RESUME -->
     <section id="resume">
         <div class="container-fluid">
@@ -181,6 +169,20 @@
                         Початковий, використовую в даний час.
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+
+                </div>
+
             </div>
         </div>
     </section>

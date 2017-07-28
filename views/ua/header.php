@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <title>About</title>
-    <link rel="icon" href="<?php echo SITE_URI?>public/image/icon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php echo SITE_URI?>public/image/logo.png" type="image/x-icon">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -27,7 +27,7 @@
         <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="<?php echo SITE_URI;?>">
-                        <span class="h-brand-style">TMV</span></a>
+                        <span class="h-brand-style"><img width="26" src="<?php echo SITE_URI?>public/image/logo-1.png"></span></a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#headerNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -37,9 +37,10 @@
 
                 <div class="collapse navbar-collapse" id="headerNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#main">Головна</a></li>
+                        <li><a href="#main">Головна</a></li>
                         <li><a href="#resume">Резюме</a></li>
                         <li><a href="#portfolio">Портфоліо</a></li>
+                        <li><a href="#about">Про мене</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">

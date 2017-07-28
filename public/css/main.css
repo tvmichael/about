@@ -9,6 +9,7 @@
     font-size: 24pt;
 }
 
+
 /* --- MAIN ------------------------------------------------------------- */
 /* Images */
 .m-img-top {
@@ -36,6 +37,10 @@
     font-family: 'Cuprum', sans-serif;
     color: white;
     padding: 50px;
+    text-shadow: 2px 2px black;
+}
+.m-text span {
+   color: teal;
 }
 .m-text-skill{
     padding: 50px;
@@ -45,4 +50,28 @@
 .m-text-t{
     color: white;
     padding: 20px;
+}
+
+
+/* --- RESUME ----------------------------------------------------------- */
+.r-main-container{
+    padding: 50px;
+}
+.r-block{
+    padding: 20px;
+}
+.r-block-inside{
+    background-color: aliceblue;
+    padding-bottom: 10px;
+}
+.r-block-inside h4{
+    color: white;
+    background-color: #454452;
+    padding: 10px;
+}
+
+/* --- ABOUT ------------------------------------------------------------ */
+.a-main-container{
+    padding: 50px;
+    height: 100vh;
 }

@@ -6,3 +6,6 @@
  * Time: 16:15
  */
 print "TOP!";
+
+print "TOP 1!";
+print "TOP 2!";

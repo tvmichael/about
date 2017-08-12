@@ -7,8 +7,8 @@ class Router {
         define('SITE_OPEN', TRUE);
         $uri = $_SERVER['QUERY_STRING'];
 
-        // $db = new Model();
-        // $db->log();
+        $db = new Model();
+        $db->log();
 
         switch ($uri) {
             case '/ua':

@@ -14,7 +14,6 @@ class Model {
         }
     }
 
-    //
     public function log(){
         date_default_timezone_set('Europe/Kiev');
         $ip = $_SERVER['REMOTE_ADDR'];

@@ -1,0 +1,120 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+
+/* --- HEADER ----------------------------------------------------------- */
+/* Header */
+.h-brand-style{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 24pt;
+}
+
+
+/* --- MAIN ------------------------------------------------------------- */
+/* Images */
+.m-img-top {
+    background-color: #454452;
+    background-image: url(../image/pc-desk.jpg);
+    background-attachment: fixed;
+    background-position-y: 50px;
+    /*background-position-x: 50%;*/
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.m-img-overlay{
+    background-image: url(../image/pattern.png);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/* Text */
+.m-text{
+    font-family: 'Cuprum', sans-serif;
+    color: white;
+    padding: 50px;
+    text-shadow: 2px 2px black;
+}
+.m-text span {
+   color: teal;
+}
+.m-text-skill{
+    padding: 50px;
+    font-size: 12pt;
+    color: white;
+}
+.m-text-t{
+    color: white;
+    padding: 20px;
+}
+
+
+/* --- RESUME ----------------------------------------------------------- */
+.r-main-container{
+    /*height: 100vh;*/
+    padding: 50px;
+}
+.r-block{
+    padding: 20px;
+}
+.r-block-inside{
+    background-color: aliceblue;
+    padding-bottom: 10px;
+}
+.r-block-inside h4{
+    color: white;
+    background-color: #454452;
+    padding: 10px;
+}
+
+
+/* --- PORTFOLIO -------------------------------------------------------- */
+.p-main-container{
+    /*height: 100vh;*/
+    padding: 50px;
+}
+.p-block{
+    padding: 10px;
+    text-align: center;
+}
+.p-example{
+    border: 1px solid rgba(0, 0, 0, 0.1); /**/
+    height: 300px;
+}
+.p-img{
+    height: 250px;
+}
+
+
+
+
+/* --- ABOUT ------------------------------------------------------------ */
+.a-main-container{
+    padding: 50px;
+    height: 100vh;
+}
+.a-article{
+    margin-top: 20px;
+    padding: 10px;
+    background: #fafbdc;
+}
+
+
+/* --- FOOTER ----------------------------------------------------------- */
+.f-footer{
+    background-color: #454452;
+}
+.f-main{
+    padding: 10px 100px;
+    height: 100px;
+    text-align: right;
+}
+.f-main h4 {
+    color: sandybrown;
+}
+
+/**/

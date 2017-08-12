@@ -2,29 +2,31 @@
 
 class Router {
 
-    //
-    private $uri;
-
-    //
+    // simple router
     public function start(){
-        $this->uri = $_SERVER['QUERY_STRING'];
-        $view = new Controller();
+        define('SITE_OPEN', TRUE);
+        $uri = $_SERVER['QUERY_STRING'];
+
         $db = new Model();
         $db->log();
 
-        switch ($this->uri) {
-            case '/portfolio':
-                $view->show($this->uri);
+        switch ($uri) {
+            case '/ua':
+                $this->view($uri.'/');
                 break;
-            case '/resume':
-                $view->show($this->uri);
-                break;
-            case '/about':
-                $view->show($this->uri);
+            case '/en':
+                $this->view($uri.'/');
                 break;
             default:
-                $view->show('main');
+                $this->view('/ua/');
         }
+    }
+
+    // view page
+    public function view($lang){
+        include_once VIEW_PATH.$lang.'header.php';
+        include_once VIEW_PATH.$lang.'main.php';
+        include_once VIEW_PATH.$lang.'footer.php';
     }
 
 }

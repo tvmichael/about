@@ -14,7 +14,7 @@
 
                         <div class="col-md-12 m-text">
                             <h1 class="text-uppercase">
-                                Професійна розробка
+                                Розробка
                                 <span>WEB-сайтів</span>
                             </h1>
                         </div>
@@ -55,7 +55,7 @@
                                 постійно удосконалюю свій професійний рівень.
                             </p>
                             <p>
-                                Ви можете замовити в меня разрабоку сайта з нуля,
+                                Ви можете замовити в меня розрабоку сайта з нуля,
                                 або звязатися зі мною для співробітництва.
                             </p>
                         </div>
@@ -155,8 +155,30 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
+                    <div class="p-main-container">
+                        <h2>Портфоліо</h2>
+                        <div class="col-md-6 p-block">
+                            <div class="p-example">
+                                <img class="p-img" src="<?php echo SITE_URI;?>/public/image/portfolio-1.gif">
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-block">
+                            <div class="p-example">
+                                <img class="p-img" src="<?php echo SITE_URI;?>/public/image/portfolio-2.gif">
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-block">
+                            <div class="p-example">
+                                <img class="p-img" src="<?php echo SITE_URI;?>/public/image/portfolio-3.gif">
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-block">
+                            <div class="p-example">
+                                <img class="p-img" src="<?php echo SITE_URI;?>/public/image/portfolio-4.gif">
+                            </div>
+                        </div>
 
-
+                    </div>
                 </div>
 
             </div>
@@ -170,7 +192,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="a-main-container">
-                        <div>
+                        <h2>Коротко про мене:</h2>
+                        <article class="a-article">
+
                             <h4>Освіта</h4>
                             <p>
                                 Харківський національний технічний університет сільського
@@ -188,9 +212,9 @@
                                 <br>
                                 Вища, з 09.1996 по 06.2001 (4 роки 9 місяців)
                             </p>
-                        </div>
+                        </article>
 
-                        <div>
+                        <article class="a-article">
                             <h4>Досвід роботи</h4>
                             <p>
                                 Викладач кафедри фізико-математичних та загальнотехнічних
@@ -201,9 +225,9 @@
                                 Викладання дисциплін:<br>
                                 фізика, біофізика, теоретична механіка, інженерна і компютерна графіка
                             </p>
-                        </div>
+                        </article>
 
-                        <div>
+                        <article class="a-article">
                             <h4>Особисті якості.</h4>
                             <p>
                                 Безусловно, мои знания еще весьма и весьма скудны, и я многого не знаю.
@@ -213,16 +237,16 @@
                                 Я люблю те, що я роблю.
                                 Я ставлюся з великою відповідальністю до того, що я роблю.
                             </p>
-                        </div>
+                        </article>
 
-                        <div>
+                        <article class="a-article">
                             <h4>Знання мов</h4>
                             <p>
                                 Украинский, Русский — експерт<br>
                                 English — початковий<br>
                                 Polski — початковий<br>
                             </p>
-                        </div>
+                        </article>
                     </div>
 
                 </div>

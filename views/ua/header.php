@@ -27,7 +27,7 @@
         <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="<?php echo SITE_URI;?>">
-                        <span class="h-brand-style"><img width="26" src="<?php echo SITE_URI?>public/image/logo-1.png"></span></a>
+                        <span class="h-brand-style"><img width="26" src="<?php echo SITE_URI?>public/image/logo.png"></span></a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#headerNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>

@@ -55,6 +55,7 @@
 
 /* --- RESUME ----------------------------------------------------------- */
 .r-main-container{
+    /*height: 100vh;*/
     padding: 50px;
 }
 .r-block{
@@ -70,8 +71,48 @@
     padding: 10px;
 }
 
+
+/* --- PORTFOLIO -------------------------------------------------------- */
+.p-main-container{
+    /*height: 100vh;*/
+    padding: 50px;
+}
+.p-block{
+    padding: 10px;
+    text-align: center;
+}
+.p-example{
+    border: 1px solid rgba(0, 0, 0, 0.1); /**/
+    height: 300px;
+}
+.p-img{
+    height: 250px;
+}
+
+
+
+
 /* --- ABOUT ------------------------------------------------------------ */
 .a-main-container{
     padding: 50px;
     height: 100vh;
+}
+.a-article{
+    margin-top: 20px;
+    padding: 10px;
+    background: #fafbdc;
+}
+
+
+/* --- FOOTER ----------------------------------------------------------- */
+.f-footer{
+    background-color: #454452;
+}
+.f-main{
+    padding: 10px 100px;
+    height: 100px;
+    text-align: right;
+}
+.f-main h4 {
+    color: sandybrown;
 }
